@@ -12,7 +12,7 @@ Instructions:
 
 1. Download Windows 11 22621.1265 from UUPDump or 22621.525 or 25300 from the Microsoft website (<https://www.microsoft.com/software-download/windows11>)
 2. Run get-oscdimg.bat to get original oscdimg.exe.
-Alternative way to get original oscdimg.exe is install Windows ADK from ([Microsoft Windows ADK wiki.](https://learn.microsoft.com/en-us/windows-hardware/get-started/adk-install))
+Alternative way to get original oscdimg.exe is install Windows ADK from [Microsoft Windows ADK wiki.](https://learn.microsoft.com/en-us/windows-hardware/get-started/adk-install) then search osdcimg.exe using Explorer's search. Pay attention to architecture name in folder.
 3. Mount the downloaded ISO image using Windows Explorer.
 4. For .1265, run tiny11 creator.bat as administrator. For .525 or 25300, use the aptly-named script (also as administrator).
 5. Select the drive letter where the image is mounted (only the letter, no colon (:))
@@ -40,6 +40,9 @@ Sound Recorder,
 Your Phone,
 Media Player,
 QuickAssist,
+Cortana v13,
+Cortana v14,
+Sticky Notes,
 Internet Explorer,
 LA57 support,
 OCR for en-us,
@@ -53,7 +56,7 @@ OneDrive
 
 Known issues:
 
-1. Microsoft Teams (personal) and Cortana are still here. If you find a way to remove them before I find one, feel free to help!
+1. Microsoft Teams (personal) is installed, if you installed Tiny11 with network on.
 2. Although Edge is removed, the icon and a ghost of its taskbar pin are still available. Also, there are some remnants in the Settings. But the app in itself is deleted.
 3. The script is rather inflexible, as in only the builds specified can be modified. This is because with each new build Microsoft also updates the inbox apps included. If one tries to use other builds, it will work with varying degrees of success, but some things like the removal of Edge and OneDrive as well as bypassing system requirements or other patches will always be applied.
 4. Only en-us x64 is supported as of now. This can be easily fixable by the end user, just by replacing every instance of en-us with the language needed (like ro-RO and so on), and every x64 instance with arm64.
