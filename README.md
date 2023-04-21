@@ -11,12 +11,14 @@ As of now, only build 22621.525 (the one that can be downloaded from the Microso
 Instructions:
 
 1. Download Windows 11 22621.1265 from UUPDump or 22621.525 or 25300 from the Microsoft website (<https://www.microsoft.com/software-download/windows11>)
-2. Mount the downloaded ISO image using Windows Explorer.
-3. For .1265, run tiny11 creator.bat as administrator. For .525 or 25300, use the aptly-named script (also as administrator).
-4. Select the drive letter where the image is mounted (only the letter, no colon (:))
-5. Select the SKU that you want the image to be based.
-6. Sit back and relax :)
-7. When the image is completed, you will see it in the folder where the script was extracted, with the name tiny11.iso
+2. Run get-oscdimg.bat to get original oscdimg.exe.
+Alternative way to get original oscdimg.exe is install Windows ADK from ([Microsoft Windows ADK wiki.](https://learn.microsoft.com/en-us/windows-hardware/get-started/adk-install))
+3. Mount the downloaded ISO image using Windows Explorer.
+4. For .1265, run tiny11 creator.bat as administrator. For .525 or 25300, use the aptly-named script (also as administrator).
+5. Select the drive letter where the image is mounted (only the letter, no colon (:))
+6. Select the SKU that you want the image to be based.
+7. Sit back and relax :)
+8. When the image is completed, you will see it in the folder where the script was extracted, with the name tiny11.iso
 
 What is removed:
 Clipchamp,
