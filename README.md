@@ -10,7 +10,7 @@ As of now, only build 22621.525 (the one that can be downloaded from the Microso
 
 Instructions:
 
-1. Download Windows 11 22621.1265 from UUPDump or 22621.525 or 25300 from the Microsoft website (<https://www.microsoft.com/software-download/windows11>)
+1. Download Windows 11 22621.1265 from UUPDump or 22621.525 or 25300 from the [Microsoft website](https://www.microsoft.com/software-download/windows11)
 2. Run get-oscdimg.bat to get original oscdimg.exe.
 Alternative way to get original oscdimg.exe is install Windows ADK from [Microsoft Windows ADK wiki.](https://learn.microsoft.com/en-us/windows-hardware/get-started/adk-install) then search osdcimg.exe using Explorer's search. Pay attention to architecture name in folder.
 3. Mount the downloaded ISO image using Windows Explorer.
